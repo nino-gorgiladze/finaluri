@@ -1,0 +1,51 @@
+@media (max-width: 600px) {
+    .navigation {
+      display: none;
+    }
+    .burger {
+      display: block;
+    }
+    
+  
+   
+  .off-menu {
+      background-color:rgb(221, 164, 20);
+      opacity: 1;
+      width: 100%;
+       /* max-width: 700px; */
+      position: fixed;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      transition: 0.3s ease;
+      margin-top: 150px;
+      border-radius: 10px;
+      line-height: 2;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 20px 20px;
+      color: black;
+    
+    }
+  }
+
+
+
+@media (max-width: 1050px) {
+  .div-charcho {flex-direction: column;
+    align-items: center;
+    width: 800px;
+  }
+  .klub-section {width: 800px;
+  }
+}
+
+
+
+  @media (max-width: 900px) {
+
+
+}
